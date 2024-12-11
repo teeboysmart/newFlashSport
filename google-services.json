@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972135925889",
+    "project_id": "notify-848d2",
+    "storage_bucket": "notify-848d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972135925889:android:97cfb0f38facaf4d176580",
+        "android_client_info": {
+          "package_name": "com.teeboy.TestApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5F4LfbAnFfGnWX7Scsq05PkNNjRCxfKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
