@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "TestApp",
+    "name": "Flash Sport",
     "slug": "TestApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/AppIcon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#040720"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +18,35 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/AppIcon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.teeboy.TestApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ccf11b1-1552-4166-884b-edbed59a66c8"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 60000,
+      "url": "https://u.expo.dev/3ccf11b1-1552-4166-884b-edbed59a66c8"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-build-properties"
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6086257842806831~2440579433"
   }
 }
